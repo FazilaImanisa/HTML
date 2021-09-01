@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Control</title>
+      </head>
+    <body>
+      <table border="1" width="70%" cellpadding="5">
+        <h3>Pesanan</h3>
+        <form>
+              <tr>
+                  <td>Makanan</td>
+                  <td>Porsi</td>
+                  <td>Harga</td>
+              </tr>
+              <tr>
+                <td>
+                  <select required>
+                  <option value="Makanan">Nasi Uduk</option>
+                  <option value="Makanan">Nasi Goreng</option>
+                  <option value="Makanan">Nasi Pecel</option>
+                  <option value="Makanan">Nasi Rames</option>
+                  </select></td>
+                  <td><input type="number" min="1" max="50" required /></td>
+                  <td><input type="number" min="10000" max="50000" required /></td>
+              </tr>
+              <tr>
+                <td>Minuman</td>
+                <td>Gelas</td>
+                <td>Harga</td>
+              </tr>
+              <tr>
+                <td><select required>
+                  <option value="Makanan">Air Putih</option>
+                  <option value="Makanan">Es Jeruk</option>
+                  <option value="Makanan">Es Teh</option>
+                  <option value="Makanan">Dawet</option>
+                  </select></td>
+                  <td><input type="number" min="1" max="50" required /></td>
+                  <td><input type="number" min="10000" max="50000" required /></td>
+              </tr>
+      </table>
+<br />
+    <button type="submit">Pesan</button>
+    <button type="reset">Reset</button>
+  </form>
+    </body>
+</html>
